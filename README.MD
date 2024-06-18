@@ -11,7 +11,8 @@ Este é um projeto em Java para gerenciar um sistema de biblioteca utilizando so
 ## Estrutura do Projeto
 
 - *Livro.java:* Representa a classe Livro com os atributos necessários (autor, nome, gênero e número de exemplares).
-- *Servidor.java:* Implementa o servidor que controla as operações de gerenciamento de livros.
+- *Servidor.java:* Implementa o servidor.
+- *ClientHandler.java:* Controla as operações de gerenciamento de livros.
 - *Cliente.java:* Implementa o cliente que interage com o servidor via socket.
 - *livros.json:* Arquivo JSON utilizado como "base de dados" para armazenar os livros da biblioteca.
 
